@@ -1,4 +1,4 @@
-# vim-liner
+# vim-col
 The simplest of vim plugins. Provides the command `:Col <column>` to set the
 colorcolumn and textwidth. Useful when you work with codebases that have
 different line limits.
