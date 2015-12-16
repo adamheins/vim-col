@@ -4,7 +4,7 @@ endif
 let loaded_col = 1
 
 function! Col(col)
-  let &colorcolumn=str2nr(a:col)
+  let &colorcolumn=str2nr(a:col + 1)
   let &textwidth=str2nr(a:col)
 endfunction
 
